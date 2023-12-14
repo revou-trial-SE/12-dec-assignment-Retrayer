@@ -55,6 +55,10 @@ line-height: 1.4em;
 color: #fff;
 text-align: center;
 
+.navbar-toggler {
+    z-index: 1;
+}
+
 }
 .hero-section {
 min-height: 100vh;
