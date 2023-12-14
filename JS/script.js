@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // Fungsi untuk memuat konten halaman
     function loadPage(page) {
-        $("#content").load("pages/" +page);
+        $("#content").load(page);
     }
 
     // Navigasi
