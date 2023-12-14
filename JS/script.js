@@ -40,32 +40,3 @@ function toggleDetails(cardId) {
     detailsElement.classList.toggle('d-none');
 }
 
- // Fungsi untuk menampilkan atau menyembunyikan konten selengkapnya
- function toggleDetails(cardId) {
-    var detailsElement = document.getElementById(cardId + '-details');
-    detailsElement.classList.toggle('d-none');
-}
-
-// Fungsi untuk menampilkan atau menyembunyikan konten selengkapnya
-function toggleDetails(cardId) {
-    var detailsElement = document.getElementById(cardId + '-details');
-    detailsElement.classList.toggle('d-none');
-}
-
-// Fungsi untuk menampilkan atau menyembunyikan footer saat scroll
-var prevScrollpos = window.pageYOffset;
-
-$(window).scroll(function () {
-    var currentScrollPos = window.pageYOffset;
-
-    if (prevScrollpos > currentScrollPos) {
-        // Show footer when scrolling up
-        $("#myFooter").removeClass("fixed");
-    } else {
-        // Hide footer when scrolling down
-        $("#myFooter").addClass("fixed");
-    }
-
-    prevScrollpos = currentScrollPos;
-});
-

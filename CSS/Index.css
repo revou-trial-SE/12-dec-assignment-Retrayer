@@ -1,76 +1,16 @@
 body {
     padding-top: 56px;
 }
-.about-image img {
-width: 100%;
-border-radius: 10px; /* Untuk memberikan efek sudut melengkung pada gambar */
-}
-
-/* CSS untuk bagian "About" */
-.about-section {
-padding: 80px 0;
-}
-
-.about-content h2 {
-font-size: 36px;
-margin-bottom: 20px;
-}
-
-.about-content p {
-font-size: 18px;
-color: #555; /* Warna teks yang lebih lembut */
-text-align: justify; /* Membuat teks rata kiri-kanan */
-line-height: 1.6; /* Menetapkan tinggi baris agar teks terlihat lebih terorganisir */
-}
-
-/* Efek hover pada gambar */
-.about-image img {
-width: 100%;
-border-radius: 10px; /* Untuk memberikan efek sudut melengkung pada gambar */
-transition: transform 0.5s ease;
-}
-
-/* Efek hover pada gambar */
-.about-image:hover img {
-transform: scale(1.1);
-}
 
 .display-4 {
-font-family: 'Crimson Text',Georgia,"Times New Roman",serif;
-font-weight: 600;
-text-transform: uppercase;
-font-size: 73px;
-letter-spacing: 2px;
-line-height: 1.1em;
-text-align: center;
-color: #fff ;
-}
-.lead {
-font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
-font-weight: 300;
-text-transform: uppercase;
-font-size: 17px;
-letter-spacing: 3px;
-line-height: 1.4em;
-color: #fff;
-text-align: center;
-
-.navbar-toggler {
-    z-index: 1;
-}
-
-}
-.hero-section {
-min-height: 100vh;
-display: flex;
-align-items: center;
-justify-content: center;
-background-image: url('gambar/WhatsApp Image 2023-12-13 at 20.31.15.jpeg');
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-}
-
+    font-family: 'Crimson Text',Georgia,"Times New Roman",serif;
+    font-weight: 600;
+    }
+    .lead {
+        font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+        font-weight: 300;
+    }
+    
 .modal-body {
     text-align: justify;
 }
