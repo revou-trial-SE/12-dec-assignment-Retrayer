@@ -1,10 +1,29 @@
+<style>
+/* Menetapkan tinggi card dan mengatur overflow agar konten yang lebih besar dapat di-scroll */
+.card {
+  height: 100%; /* Atur tinggi card sesuai kebutuhan */
+  overflow: auto;
+}
+
+/* Menetapkan tinggi gambar card agar tidak terdistorsi */
+.card-img-top {
+  height: 200px; /* Atur tinggi gambar sesuai kebutuhan */
+  object-fit: cover; /* Mencegah distorsi gambar */
+}
+
+/* Menetapkan tinggi modal-body dan mengatur overflow agar konten yang lebih besar dapat di-scroll */
+.modal-body {
+  max-height: 500px; /* Atur tinggi modal-body sesuai kebutuhan */
+  overflow-y: auto;
+}
+</style>
 <!-- Konten halaman skills -->
 <section id="skills" class="bg-light py-5">
     <div class="container">
         <h2>Keahlian dan Sertifikat</h2>
         <div class="row">
             <!-- Card 1: Intro to Software Engineering -->
-            <div class="col-md-6 col-lg-3 mb-4">
+            <div class="col-md-6 mb-4">
                 <div class="card">
                     <!-- Gambar card -->
                     <img src="Gambar/Screenshot 2023-12-14 171119.png" class="card-img-top" alt="Intro to Software Engineering">
@@ -50,7 +69,7 @@
             </div>
 
             <!-- Card 2: TOEFL -->
-            <div class="col-md-6 col-lg-3 mb-4">
+            <div class="col-md-6 mb-4">
                 <div class="card">
                     <img src="Gambar/1701507866386.jfif" class="card-img-top" alt="TOEFL">
                     <div class="card-body">
@@ -89,7 +108,7 @@
             </div>
 
             <!-- Card 3: Microsoft Office Training -->
-            <div class="col-md-6 col-lg-3 mb-4">
+            <div class="col-md-6 mb-4">
                 <div class="card">
                     <img src="Gambar/1701507642667.jfif" class="card-img-top" alt="Microsoft Office Training">
                     <div class="card-body">
@@ -146,7 +165,7 @@
             </div>
 
             <!-- Card 4: Ijazah Electrical Engineer -->
-            <div class="col-md-6 col-lg-3 mb-4">
+            <div class="col-md-6 mb-4">
                 <div class="card">
                     <img src="https://i0.wp.com/pengusahamuslim.com/wp-content/uploads/2017/01/mempercepat-loading-situs.jpg?fit=805%2C534&ssl=1&is-pending-load=1" class="card-img-top" alt="Ijazah Electrical Engineer">
                     <div class="card-body">

@@ -15,13 +15,7 @@ body {
     text-align: justify;
 }
 
-footer.fixed {
-    display: none;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
-}
+h2 {
+    margin-bottom: 20px; /* Sesuaikan dengan jumlah margin yang diinginkan */
+  }
+
